@@ -41,7 +41,7 @@
 
 
 <h2>Methodology</h2>
-  [Insert Image of our approach]
+<img src="./OurApproach.png"></img>
   
 <h3>Tools Used for Data Analysis</h3>
 Python Libraries
@@ -58,7 +58,13 @@ Python Libraries
   <li>Cleaned up provided dataset and plotted AQI chronologically in 2020</li>
   <li>The graphs appeared to be quadratic with a minimum in the middle of the summer months</li>
 </ul>
-[Insert 4 Images]
+
+<div float="left">
+  <img src="./California 2020 no line.png" alt="California 2020 no line"height="23%" width="23%"></img>
+  <img src="./Alabama 2020 no line.png" alt="Alabama 2020 no line" height="23%" width="23%"></img>
+  <img src="./Louisiana 2020 no line.png" alt="Louisiana 2020 no line" height="23%" width="23%"></img>
+  <img src="./New York 2020 no line.png" alt="New York 2020 no line" height="23%" width="23%"></img>
+</div>
 
 <h3>Data Analysis</h3>
 <ul>
@@ -88,14 +94,29 @@ Python Libraries
     </ul>
   </li>
 </ul>
-[Insert image change in NO2 concentraion vs Covid positivity rate in US states]
+
+<img src="./NO2 Concentration vs Covid Positivity.png" alt="./NO2 Concentration vs Covid Positivity" height="60%" width="60%">
 
 <h4>Hypothesis 3 confirmed: The amount of change is greatest in states that are more liberal</h4>
 <ul>
   <li>Liberal states tended to have greater % changes in NO<sub>2</sub> Air Quality Index compared to conservative states</li>
   <li>The liberal quadratic equations had a larger steepness (larger a constant in its equation)</li>
 </ul>
-[Insert 5 graphs of liberal vs conservative best-fit quadratics]
+
+<b>Liberal States</b>
+<div float="left">
+  <img src="New York 2020.png" alt="New York 2020" width="40%" height="40%"></img>
+  <img src="California 2020.png" alt="California 2020" width="40%" height="40%"></img>
+</div>
+
+<br>
+
+<b>Conservative States</b>
+<div float="left">
+  <img src="alabama_bestfitquad.png" alt="Alabama 2020" width="40%" height="40%"></img>
+  <img src="Louisiana 2020.png" alt="Louisiana 2020" width="40%" height="40%"></img>
+</div>
+
   
     
   
